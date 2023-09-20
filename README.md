@@ -1,0 +1,2 @@
+# TablayouSample
+用于练习Canvas绘制的项目，其中使用到了Tablayout和Viewpager2与Fragment的结合，形成一个多页的简单框架。
