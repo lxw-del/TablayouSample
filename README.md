@@ -1,7 +1,7 @@
 # TablayouSample
 用于练习Canvas绘制的项目，其中使用到了Tablayout和Viewpager2与Fragment的结合，形成一个多页的简单框架。
 
-\##项目目的
+## 项目目的
 
 1、练习熟悉Canvas的用法，例如drawpath等
 
@@ -9,7 +9,7 @@
 
 
 
-##模块简介
+## 模块简介
 
 1、TabLayout和ViewPager2在布局中的使用
 
@@ -42,7 +42,7 @@
 
 通过上方是tablayout 下方的内容显示用ViewPager2与Fragment结合使用.
 
-###ViewPager2
+### ViewPager2
 
 ViewPager2是Android Jetpack库中的一个组件，是用于在应用程序中实现页面切换和滑动效果的容器。
 
@@ -102,7 +102,7 @@ viewstub就是**==动态加载试图==**；也就是在我们的app启动绘制�
 
 
 
-###ViewPager2在MainActivity中的使用
+### ViewPager2在MainActivity中的使用
 
 ViewPager2需要适配器，与Fragment使用的时候，直接使用FragmentStateAdapter，其他的都已经弃用了
 
@@ -125,7 +125,7 @@ viewPager = (ViewPager2) findViewById(R.id.view_pager);
         });
 ```
 
-\###TabLayout与ViewPager2的结合使用
+### TabLayout与ViewPager2的结合使用
 
 使用`TabLayoutMediator`将`TabLayout`与`ViewPager2`进行关联。`TabLayoutMediator`允许你在`TabLayout`中显示与`ViewPager2`中的页面相对应的标签。
 
